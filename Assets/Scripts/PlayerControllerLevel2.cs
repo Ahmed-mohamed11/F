@@ -47,6 +47,7 @@ public class PlayerControllerLevel2 : MonoBehaviour
             score++;
 
             if (score >= winScore)
+            
             {
                 GameOverText.SetActive(true);
                 source.PlayOneShot(winnerClip);
